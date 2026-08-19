@@ -153,7 +153,7 @@ flowchart LR
 | Maha Khaled | Person | [Maha-123-dot](https://github.com/Maha-123-dot) |
 
 **Under the supervision of:** George Samuel — Instructor
-([gsamuei](https://github.com/gsamuei))
+([gsamuei](https://github.com/gsamueil))
 
 ---
 
