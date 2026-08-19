@@ -149,7 +149,7 @@ flowchart LR
 | Anas Sayed | Hospital & Config | [Riplinux](https://github.com/Riplinux) |
 | Hassan Ali | Staff & Staff Store | [7assan-Ali](https://github.com/7assan-Ali) |
 | Ahmed Rabie | Department | [ahmedrabiem](https://github.com/ahmedrabiem) |
-| Heba Ramadan | Patient & Patient Store | [eng80022-a11y](https://github.com/eng80022-a11y) |
+| Heba Ramadan | Patient & Patient Store | [eng80022-a11y](https://github.com/hebaramadan1) |
 | Maha Khaled | Person | [Maha-123-dot](https://github.com/Maha-123-dot) |
 
 **Under the supervision of:** George Samuel — Instructor
