@@ -1,4 +1,5 @@
-from person import Person  
+from person import Person
+
 
 class Staff(Person):
     """Represents a staff member in a hospital.
@@ -6,6 +7,8 @@ class Staff(Person):
     Inherits name and age from the Person class and adds
     a position attribute for the staff member's job role.
     """
+
+    POSITIONS = ["Doctor", "Nurse", "Technician", "Receptionist", "Administrator"]
 
     def __init__(self, name, age, position):
         """Initialize a Staff object.
@@ -17,6 +20,16 @@ class Staff(Person):
         """
         super().__init__(name, age)
         self.position = position
+
+    @property
+    def position(self) -> str:
+        return self._position
+
+    @position.setter
+    def position(self, value):
+        if value not in Staff.POSITIONS:
+            raise ValueError(f"Position must be one of: {', '.join(Staff.POSITIONS)}.")
+        self._position = value
 
     def view_info(self):
         """Return the staff member's information.
