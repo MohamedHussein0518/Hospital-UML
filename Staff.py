@@ -1,6 +1,9 @@
 from person import Person
 
 
+##  Hassan Ali
+
+
 class Staff(Person):
     """Represents a staff member in a hospital.
 
